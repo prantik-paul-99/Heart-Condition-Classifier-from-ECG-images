@@ -29,7 +29,13 @@ def load_data():
         for image_path in image_paths:
             img = cv.imread(image_path)
             if img is not None:
-                img = cv.resize(img, (28, 28))
+                gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+                invert = cv.bitwise_not(gray)
+                dilate = cv.dilate(invert, None, iterations=2)
+                # erode = cv.erode(dilate, None, iterations=2)
+
+                img = cv.resize(dilate, (28, 28))
+                
                 images.append(img)
         print("done loading images from {}".format(folder_path))
         print("total images loaded: {}".format(len(images)))
