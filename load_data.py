@@ -35,8 +35,11 @@ def load_data():
                 # erode = cv.erode(dilate, None, iterations=2)
 
                 img = cv.resize(dilate, (28, 28))
+                img = np.array(img)
                 
                 images.append(img)
+        
+        images = np.array(images)
         print("done loading images from {}".format(folder_path))
         print("total images loaded: {}".format(len(images)))
 
