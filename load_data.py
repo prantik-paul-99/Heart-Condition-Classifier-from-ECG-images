@@ -34,7 +34,7 @@ def load_data():
                 dilate = cv.dilate(invert, None, iterations=2)
                 # erode = cv.erode(dilate, None, iterations=2)
 
-                img = cv.resize(dilate, (28, 28))
+                img = cv.resize(dilate, (224, 224))
                 img = np.array(img)
                 
                 images.append(img)
