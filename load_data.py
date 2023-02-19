@@ -28,19 +28,24 @@ def load_data():
         image_paths = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.endswith('.png')]
         # print("len of image_paths: {}".format(len(image_paths)))
         for image_path in image_paths:
-            # img = cv.imread(image_path)
-            img = Image.open(image_path)
+            img = cv.imread(image_path)
+            # img = Image.open(image_path)
             if img is not None:
                 # gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-                gray = ImageOps.grayscale(img)
-                # gray = img
+                # gray = ImageOps.grayscale(img)
+                print("image shape: {}".format(img.size)) 
+                gray = img
+                print("gray shape: {}".format(gray.size)) 
                 # invert = cv.bitwise_not(gray)
                 invert = ImageOps.invert(gray)
+                print("invert shape: {}".format(invert.size))
                 # dilate = cv.dilate(invert, None, iterations=2)
                 dilate = invert.filter(ImageFilter.MaxFilter(3))
                 # erode = cv.erode(dilate, None, iterations=2)
 
-                img = dilate.resize((28,28))
+                # resize in 224x224x3 image
+                print("dilate shape: {}".format(dilate.size))    
+                img = dilate.resize((224, 224))
                 img = np.array(img)
                 
                 images.append(img)
