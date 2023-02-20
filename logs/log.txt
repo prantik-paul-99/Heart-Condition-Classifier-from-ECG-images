@@ -1,0 +1,57 @@
+2196 2471
+(2196, 13, 28, 28) (2196,) (275, 13, 28, 28) (275,) (275, 13, 28, 28) (275,)
+Evaluating: 69it [00:04, 14.59it/s]
+accuracy: 0.24727272727272728
+Training: 0it [00:00, ?it/s]<ipython-input-68-fc11b89fc8de>:109: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(self.network.parameters(), self.grad_clipping)
+Training: 549it [01:49,  4.99it/s]
+LR: 0.001
+Epoch:  0
+Evaluating: 69it [00:04, 17.16it/s]
+accuracy: 0.8072727272727273
+Training: 549it [01:54,  4.79it/s]
+LR: 0.001
+Epoch:  1
+Evaluating: 69it [00:04, 17.16it/s]
+accuracy: 0.8727272727272727
+Training: 549it [01:55,  4.75it/s]
+LR: 0.001
+Epoch:  2
+Evaluating: 69it [00:03, 17.30it/s]
+accuracy: 0.8981818181818182
+Training: 549it [01:55,  4.76it/s]
+LR: 0.001
+Epoch:  3
+Evaluating: 69it [00:05, 12.99it/s]
+accuracy: 0.9454545454545454
+Training: 549it [01:54,  4.79it/s]
+LR: 0.001
+Epoch:  4
+Evaluating: 69it [00:05, 12.12it/s]
+accuracy: 0.9636363636363636
+Training: 549it [01:54,  4.78it/s]
+LR: 0.001
+Epoch:  5
+Evaluating: 69it [00:04, 15.66it/s]
+accuracy: 0.9709090909090909
+Training: 549it [01:54,  4.79it/s]
+LR: 0.001
+Epoch:  6
+Evaluating: 69it [00:04, 17.22it/s]
+accuracy: 0.9709090909090909
+Training: 549it [01:54,  4.77it/s]
+LR: 0.001
+Epoch:  7
+Evaluating: 69it [00:04, 17.24it/s]
+accuracy: 0.9745454545454545
+Training: 549it [01:54,  4.78it/s]
+LR: 0.001
+Epoch:  8
+Evaluating: 69it [00:03, 17.34it/s]
+accuracy: 0.9781818181818182
+Training: 549it [01:54,  4.78it/s]
+LR: 0.0005
+Epoch:  9
+Evaluating: 69it [00:04, 17.19it/s]
+accuracy: 0.9709090909090909
+Evaluating: 69it [00:05, 11.78it/s]accuracy: 0.9818181818181818
