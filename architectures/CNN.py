@@ -1,6 +1,6 @@
-class HybridNetwork(nn.Module):
+class CNNNetwork(nn.Module):
     def __init__(self):
-        super(HybridNetwork, self).__init__()
+        super(CNNNetwork, self).__init__()
 
         self.extraction_layers = nn.Sequential(
             nn.LazyConv2d(out_channels=64, kernel_size=3, padding=1),
