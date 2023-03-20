@@ -42,7 +42,10 @@ Myocardial Infraction: 0.9959016393442623
 Normal Heart: 1.0
 History of Myocardial Infraction: 0.9958333333333333
 
-
+weighted average of precision: 0.9890825129615248
+weighted average of recall: 0.9890909090909091
+weighted average of f1: 0.9890732965356733
+weighted average of specificity: 0.9972727272727273
 
 
 CNN 2D
@@ -87,6 +90,11 @@ Abnormal Heartbeat: 0.9878345498783455
 Myocardial Infraction: 0.9959016393442623
 Normal Heart: 1.0
 History of Myocardial Infraction: 0.99375
+
+weighted average of precision: 0.9819050088667314
+weighted average of recall: 0.9818181818181818
+weighted average of f1: 0.9815932186022467
+weighted average of specificity: 0.9954545454545455
 
 
 
@@ -134,6 +142,11 @@ Myocardial Infraction: 0.9979508196721312
 Normal Heart: 1.0
 History of Myocardial Infraction: 0.9979166666666667
 
+weighted average of precision: 0.9945584415584415
+weighted average of recall: 0.9945454545454545
+weighted average of f1: 0.9945389377647443
+weighted average of specificity: 0.9986363636363637
+
 
 
 
@@ -151,7 +164,7 @@ Covid: 0.9787234042553191
 Abnormal Heartbeat: 0.9485294117647058
 Myocardial Infraction: 0.5306122448979592
 Normal Heart: 1.0
-History of Myocardial Infraction: 0.0.7837837837837838
+History of Myocardial Infraction: 0.7837837837837838
 
 
 Recall:
@@ -166,7 +179,7 @@ History of Myocardial Infraction: 0.4142857142857143
 F1 Score:
 
 Covid: 0.9787234042553191
-Abnormal Heartbeat: 9381818181818181
+Abnormal Heartbeat: 0.9381818181818181
 Myocardial Infraction: 0.65
 Normal Heart: 1.0
 History of Myocardial Infraction: 0.5420560747663551
@@ -179,6 +192,11 @@ Abnormal Heartbeat: 0.9829683698296837
 Myocardial Infraction: 0.9057377049180327
 Normal Heart: 1.0
 History of Myocardial Infraction: 0.9833333333333333
+
+weighted average of precision: 0.9047425677887863
+weighted average of recall: 0.8872727272727273
+weighted average of f1: 0.8848203599289411
+weighted average of specificity: 0.9718181818181818
 
 
 
@@ -224,8 +242,12 @@ Covid: 0.9940357852882704
 Abnormal Heartbeat: 0.9781021897810219
 Myocardial Infraction: 0.9815573770491803
 Normal Heart: 0.9968553459119497
-History of Myocardial Infraction:0.9916666666666667
+History of Myocardial Infraction: 0.9916666666666667
 
+weighted average of precision: 0.95213440254318
+weighted average of recall: 0.9527272727272728
+weighted average of f1: 0.9521027483738728
+weighted average of specificity: 0.9881818181818182
 
 
 
@@ -271,6 +293,13 @@ Abnormal Heartbeat: 0.9902676399026764
 Myocardial Infraction: 0.9918032786885246
 Normal Heart: 1.0
 History of Myocardial Infraction: 0.99375
+
+weighted average of precision: 0.9799610389610391
+weighted average of recall: 0.98
+weighted average of f1: 0.9799152186540928
+weighted average of specificity: 0.995
+
+
 
 ATTNVGG
 
